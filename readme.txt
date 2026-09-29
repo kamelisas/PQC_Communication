@@ -1,5 +1,1 @@
-Download the "nRF Connect" extension on VSCode. 
-
-For each algorithm, after debugging, upload the Peripheral Code on one board and Central Code on the other board.
-
-First power on the Central board and than power on the Peripheral Board.
+NOTE: This is a fork of a shared lab project built with colleagues under Professor Aref's supervision. My individual contribution is in the Signature-RaspberryPi folder, where I implemented and benchmarked Falcon-512 and SLH-DSA/SPHINCS+ signature exchange (via liboqs) between a Raspberry Pi and a peer device over MQTT, including a transport-layer fix for a buffer overflow (MAX_BUFFER raised to 65536 in transport.c) that was causing an SLH-DSA segfault. The other folders in this repository (Nouman, PQ_Signatures_Mamadou, KEM_Argon, etc.) are the work of my teammates on the same project.
